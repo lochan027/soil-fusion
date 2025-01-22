@@ -1,0 +1,187 @@
+.sign-in-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 280px;
+  min-height: 100vh;
+  background-image: url('./signbackground.png');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  position: relative;
+}
+
+.sign-in-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+  z-index: 1;
+}
+
+.left-content {
+  color: white;
+  max-width: 450px;
+  position: relative;
+  z-index: 2;
+  padding-left: 80px;
+}
+
+.left-content h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 32px;
+  letter-spacing: -0.5px;
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+}
+
+.left-content h1 span {
+  display: block;
+  white-space: nowrap;
+}
+
+.left-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  width: 340px;
+  margin: 0;
+  text-align: left;
+  padding-left: 4px;
+  letter-spacing: 0.2px;
+}
+
+.form-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  z-index: 2;
+  margin-right: 80px;
+}
+
+.form-header {
+  display: flex;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.form-header button {
+  flex: 1;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #666;
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-header button.active {
+  color: #1a1a1a;
+  border-bottom: 2px solid #6B47DC;
+}
+
+.sign-up-form,
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 100px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  color: #1a1a1a;
+  background-color: white;
+}
+
+input:focus {
+  border-color: #6B47DC;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+.btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 100px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.create-account-btn {
+  background-color: #4CD7C6;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.create-account-btn:hover {
+  background-color: #3bc1b1;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  color: #666;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 45%;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.gmail-btn {
+  background-color: #4285F4;
+  color: white;
+}
+
+.gmail-btn:hover {
+  background-color: #357ABD;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 8px;
+  background-color: rgba(220, 53, 69, 0.1);
+  border-radius: 8px;
+}
+  
