@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/soil-fusion/static/css/main.30b387cc.css",
+    "main.js": "/soil-fusion/static/js/main.af62fc82.js",
+    "static/js/206.df3269e8.chunk.js": "/soil-fusion/static/js/206.df3269e8.chunk.js",
+    "static/media/signbackground.png": "/soil-fusion/static/media/signbackground.b4f560349cac66ac6296.png",
+    "static/media/treesbackground.avif": "/soil-fusion/static/media/treesbackground.140de317b4fa1f33079f.avif",
+    "index.html": "/soil-fusion/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.30b387cc.css",
+    "static/js/main.af62fc82.js"
+  ]
+}
